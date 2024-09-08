@@ -1,0 +1,48 @@
+# Node modules directory
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+client/build/
+client/dist/
+client/public/
+
+# IDE/editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Mac and Linux system files
+*.pid
+*.seed
+*.pid.lock
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Miscellaneous
+*.tgz
+*.gz
+*.zip
